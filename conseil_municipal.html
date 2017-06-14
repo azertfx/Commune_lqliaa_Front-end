@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="President"/>
+    <meta name="author" content="President"/>
+    <title>المجلس البلدي</title>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/css/material-design-iconic-font.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animsition.min.css">
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	</head>
+	<body>
+    <!--navbar-->
+    <img src="imgs/beta.png" alt="logo" style="position: fixed;top: 0;left: 0;z-index: 9999;" />
+    <nav class="gray_bg">
+      <div class="nav-wrapper container">
+        <a href="#" data-activates="nav-mobile" class="right button-collapse"><i class="material-icons">menu</i></a>
+        <div class="right logo_mr hide-on-med-and-down"><img src="imgs/logo_mr.png" alt="logo" /></div>
+        <ul class="left hide-on-med-and-down">
+          <li>
+            <a class="btn-floating waves-effect waves-light indigo"><i class="zmdi zmdi-facebook"></i></a>
+          </li>
+          <li>
+            <a class="btn-floating waves-effect waves-light indigo"><i class="zmdi zmdi-twitter"></i></a>
+          </li>
+          <li>
+            <a class="btn-floating waves-effect waves-light indigo"><i class="zmdi zmdi-play-circle"></i></a>
+          </li>
+          <li>
+            <a class="btn-floating waves-effect waves-light indigo"><i class="zmdi zmdi-google"></i></a>
+          </li>
+        </ul>
+        <ul id="nav-mobile" class="side-nav right">
+          <li><a href="index.html" class="logo"><img src="imgs/logo.png" alt="logo" /></a></li>
+          <li class="divider"></li>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="votre_ville.html">مدينتكم</a></li>
+          <li class="no-padding active">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="collapsible-header waves-effect waves-light active" href="#!">المجلس الجماعي</a>
+                <div class="collapsible-body">
+                  <ul class="right_margin">
+                    <li><a href="conseil_municipal.html" class="active">المجلس البلدي</a></li>
+                    <li><a href="cy_conseil.html">دورات المجلس</a></li>
+                    <li><a href="president.html" >الرئيس</a></li>
+                    <li><a href="bureau.html">المكتب</a></li>
+                    <li><a href="comites.html">اللجان</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li><a href="interets_co.html">المصالح الجماعية</a></li>
+          <li><a href="documents_administratifs.html">وثائق ادارية </a></li>
+          <li><a href="les_services_electroniques.html">الخدمات الإلكترونية</a></li>
+          <li><a href="contact.html">إتصل بنا</a></li>
+          <ul class="r_u">
+            <li>
+              <a class="btn-floating waves-effect waves-light indigo"><i class="zmdi zmdi-facebook"></i></a>
+            </li>
+            <li>
+              <a class="btn-floating waves-effect waves-light indigo"><i class="zmdi zmdi-twitter"></i></a>
+            </li>
+            <li>
+              <a class="btn-floating waves-effect waves-light indigo"><i class="zmdi zmdi-play-circle"></i></a>
+            </li>
+            <li>
+              <a class="btn-floating waves-effect waves-light indigo"><i class="zmdi zmdi-google"></i></a>
+            </li>
+          </ul>    
+        </ul>
+      </div>
+    </nav>
+    <nav class="second_nav indigo hide-on-med-and-down" style="height: 85px" >
+      <div class="nav-wrapper container">
+        <ul id="nav-mobile" class="right nav-mobile">
+          <li><a href="contact.html">إتصل بنا</a></li>   
+          <li><a href="les_services_electroniques.html">الخدمات الإلكترونية</a></li>
+          <li><a href="documents_administratifs.html">وثائق ادارية </a></li>
+          <li><a href="interets_co.html">المصالح الجماعية</a></li>
+          <li class="active"><a href="#!" class="dropdown-button active" data-activates="dropdown2">المجلس الجماعي </a></li>
+          <li><a href="votre_ville.html">مدينتكم</a></li>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="index.html" class="logo"><img src="imgs/logo.png" alt="logo" width="75px" title="الجماعة الحضرية القليعة" /></a></li>
+        </ul>
+      </div>
+    </nav><!--/navbar-->
+    <table id="dropdown1" class="dropdown-content sous_menu gray_bg">
+      <tbody>
+        <tr>
+          <td><a href="conseil_municipal.html" class="active">المجلس البلدي</a></td>
+          <td><a href="cy_conseil.html">دورات المجلس</a></td>
+          <td><a href="president.html">الرئيس</a></td>
+          <td><a href="bureau.html">المكتب</a></td>
+          <td><a href="comites.html">اللجان</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <table id="dropdown2" class="dropdown-content sous_menu gray_bg">
+      <tbody>
+        <tr>
+          <td><a href="conseil_municipal.html" class="active">المجلس البلدي</a></td>
+          <td><a href="cy_conseil.html">دورات المجلس</a></td>
+          <td><a href="president.html">الرئيس</a></td>
+          <td><a href="bureau.html">المكتب</a></td>
+          <td><a href="comites.html">اللجان</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <!--navbar fixed-->
+    <nav class="second_nav indigo hide-on-med-and-down fix_nav">
+      <div class="nav-wrapper container">
+        <ul id="nav-mobile" class="right">
+          <li><a href="contact.html">إتصل بنا</a></li>          
+          <li><a href="les_services_electroniques.html">الخدمات الإلكترونية</a></li>
+          <li><a href="documents_administratifs.html">وثائق ادارية </a></li>
+          <li><a href="interets_co.html">المصالح الجماعية</a></li>
+          <li class="active"><a href="#!" class="dropdown-button active" data-activates="dropdown1">المجلس الجماعي </a></li>
+          <li><a href="votre_ville.html">مدينتكم</a></li>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="index.html" class="logo"><img src="imgs/logo.png" alt="logo" title="الجماعة الحضرية للناظور" /></a></li>
+        </ul>
+      </div>
+    </nav><!--/navbar fixed-->
+	  <!-- slide -->
+		<div class="header_bg">
+			<div class="slider">
+				<ul class="slides" id="slides">
+					<li>
+						<img src="imgs/header_back1.png" alt="slide image"> <!-- random image -->
+						<div class="container">
+							<div class="caption" >
+								<div class="center">
+									<h2>المجلس البلدي</h2>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div><!-- / slide -->
+	  <nav class="blue title_president">
+	    <div class="nav-wrapper container">
+	      <ul class="right">
+	        <li class="no_hover">المجلس البلدي</li>
+	        <li class="no_hover">&nbsp;<&nbsp;</li>
+	        <li class="no_hover">المجلس الجماعي</li>
+	      </ul>
+	    </div>
+	  </nav>
+    <!-- conseil municipal -->
+    <div class="conseil_municipal">
+      <div class="container">  
+        <div class="row z-depth-1 card">
+          <!--Les membres de mairie-->
+          <div class="col s12 m6 l4 center members right">
+            <div class="z-depth-1  member">
+              <img src="imgs/member3.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>الرئيس</p>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 center members">
+            <div class="z-depth-1 member">
+              <img src="imgs/member2.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>نائب الرئيس 2</p>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 center members">
+            <div class="z-depth-1 member">
+              <img src="imgs/memberone.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>نائب الرئيس 1</p>
+            </div>   
+          </div>      
+          <div class="col s12 m6 l4 center members">
+            <div class="z-depth-1  member">
+              <img src="imgs/member4.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>نائب الرئيس 2</p>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 center members">
+            <div class="z-depth-1 member">
+              <img src="imgs/member5.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>نائب الرئيس 2</p>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 center members">
+            <div class="z-depth-1 member">
+              <img src="imgs/member6.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>نائب الرئيس 2</p>
+            </div>   
+          </div>      
+          <div class="col s12 m6 l4 center members">
+            <div class="z-depth-1  member">
+              <img src="imgs/member7.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>مستشار</p>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 center members">
+            <div class="z-depth-1 member">
+              <img src="imgs/member8.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>مستشار</p>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 center members">
+            <div class="z-depth-1 member">
+              <img src="imgs/member9.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>مستشار</p>
+            </div>   
+          </div>      
+          <div class="col s12 m6 l4 center members">
+            <div class="z-depth-1  member">
+              <img src="imgs/member10.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>مستشار</p>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 center members">
+            <div class="z-depth-1 member">
+              <img src="imgs/member11.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>مستشار</p>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 center members">
+            <div class="z-depth-1 member">
+              <img src="imgs/member12.png" alt="members" class="z-depth-1">
+              <p class="parg_hover">العدالة والتنمية</p>
+              <h5 class="blue-text">محمد بيكيز</h5>
+              <p>مستشار</p>
+            </div>   
+          </div><!--/Les membres de mairie-->
+        </div>
+      </div>
+    </div><!--/ conseil municipal-->
+    <!--Conseil collective-->
+    <div class="container">
+      <div class="row z-depth-1 city_hall card">
+        <div class="col s12 m12 l6 offset-l6 title_city_hall">
+          <h4 class="blue-text">المجلس الجماعي</h4>
+          <p class="grey-text text-lighten-1">عرفت تطورا ملحوظا من مرحلة لأخرى، كان الهدف منها هو تقريب الإدارة من المواطن وإسناد حل المشاكل المحلية إلى مجالس منتخبة</p>
+        </div>
+        <div class="col s12 m6 l3 center blue_border">
+          <a href="comites.html" class="black-text darken-4">
+            <img src="imgs/Committees1.png" class="circle responsive-img" alt="photo">
+            <h5>اللجان</h5> 
+          </a> 
+        </div>
+        <div class="col s12 m6 l3  center pink_border">
+          <a href="bureau.html" class="black-text darken-4"><img src="imgs/office1.png" class="circle responsive-img" alt="photo">
+          <h5>المكتب</h5></a>
+        </div>                        
+        <div class="col s12 m6 l3 center blue_border">
+          <a href="conseil_municipal.html" class="black-text darken-4"><img src="imgs/Conseil1.png" class="circle responsive-img" alt="photo">
+          <h5>المجلس</h5></a>
+        </div>
+        <div class="col s12 m6 l3 center pink_border">
+          <a href="president.html" class="black-text darken-4"><img src="imgs/president1.png" class="circle responsive-img" alt="photo">
+          <h5>الرئيس</h5></a>
+        </div>                  
+      </div>        
+    </div><!--/Conseil collective-->
+    <!--FOOTER-->
+    <footer class="page-footer grey darken-3 z-depth-1">
+      <div class="container">
+        <div class="row">
+          <!--Application-->
+          <div class="col s12 m12 l4">
+            <h6 class="white-text titles_at_footer">تطبيق الهاتف للموقع</h6>
+            <span class="title_lign pink " ></span>
+            <div style="clear: both;"></div>
+            <div class="slider" id="app_photo">
+              <ul class="slides z-depth-1" id="app_photo">
+                <li>
+                  <img src="imgs/app-site1.png" alt=""> <!-- random image -->
+                  <div class="caption center-align">
+                    <a href=""><h5>حمل تطبيق الهاتف</h5></a>
+                  </div>
+                </li>
+              </ul>      
+            </div>
+          </div><!--/Application-->  
+          <!--Gallery-->  
+          <div class="col s12 m12 l4 ">
+            <h6 class="white-text titles_at_footer">صور الموقع</h6>
+            <span class="title_lign pink " ></span>
+            <div style="clear: both;"></div>
+            <div class="center galleris">      
+              <div class="gallery">
+                <img class="materialboxed" alt="photo" src="imgs/timthumb.jpg">
+                <img class="materialboxed" alt="photo" src="imgs/TIFL.jpg">
+                <img class="materialboxed" alt="photo" src="imgs/essaouira-harbour.jpg">
+                <img class="materialboxed" alt="photo" src="imgs/souira.jpg">
+                <div class="clear"></div>
+              </div>
+              <div class="gallery">
+                <img class="materialboxed" alt="photo" src="imgs/photo5.jpg">
+                <img class="materialboxed" alt="photo" src="imgs/photo6.jpg">
+                <img class="materialboxed"  alt="photo" src="imgs/photo7.JPG">
+                <img class="materialboxed" alt="photo" src="imgs/photo8.jpg">
+                <div class="clear"></div>
+              </div>      
+              <div class="gallery">
+                <img class="materialboxed" alt="photo" src="imgs/photo9.png">
+                <img class="materialboxed" alt="photo" src="imgs/photo10.jpg">
+                <img class="materialboxed" alt="photo" src="imgs/photo11.jpg">
+                <img class="materialboxed" alt="photo" src="imgs/photo12.jpg">
+                <div class="clear"></div>
+              </div>
+              <div class="gallery">
+                <img class="materialboxed" alt="photo" src="imgs/photo13.jpg">
+                <img class="materialboxed" alt="photo" src="imgs/photo14.jpg">
+                <img class="materialboxed" alt="photo" src="imgs/photo15.jpg">
+                <img class="materialboxed" alt="photo" src="imgs/photo16.jpg">
+                <div class="clear"></div>
+              </div> 
+            </div>                                                                 
+          </div><!--/Gallery-->  
+          <!--About Municipal-->
+          <div class="col s12 m12 l4 about_municipal">
+            <div class="center"><a href="index.html" class="logo"><img src="imgs/logo2.png" alt="logo"></a></div>
+            <p class="white-text">صوت المجلس الجماعي بأغلبية قريبة من الإجماع على مشروع ميزان 2016 وذلك خلال أشغال دورة أكتوبر العادية  في جلستها الثانية صوت المجلس الجماعي بأغلبية قريبة من الإجماع على مشروع ميزانية 016 وذلك خلال أشغال دورة أكتوبر العادية  في جلستها الثانية صوت جلس المجلس الجماعي بأغلبية قريبة من الإجماع على مشروع ميزانية 016 وذلك خلال أشغال دورة أكتوبر  </p>
+            <ul>
+              <div class="row center">
+                <div class="col s3">
+                  <a class="btn-floating waves-effect waves-light white  first"><i class="blue-text text-darken-2 zmdi zmdi-facebook"></i></a>
+                </div>
+                <div class="col s3">
+                  <a class="btn-floating waves-effect waves-light white"><i class="blue-text lighten-2-text zmdi zmdi-twitter"></i></a>
+                </div>
+                <div class="col s3">
+                  <a class="btn-floating waves-effect waves-light white"><i class="red-text zmdi zmdi-google-plus"></i></a>
+                </div>
+                <div class="col s3">
+                  <a class="btn-floating waves-effect waves-light white"><i class="red-text zmdi zmdi-play"></i></a>
+                </div>
+              </div>
+            </ul>
+          </div><!-- / About Municipal-->
+        </div>
+      </div>     
+      <div class="footer-copyright grey darken-4 z-depth-1">
+        <div class="container">
+          <div class="row">
+            <div class="col l4 m6 s6"id="logofikra">
+              <a href="http://fikralabs.com/" class="left"><img src="imgs/fikralogo.png" alt="fikralogo" title="fikra labs"></a>
+            </div>
+            <div class="col l8 m6 s6 hide-on-med-and-down">
+              جميع الحقوق محفوظة لموقع الجماعة الحضرية القليعة
+            </div>
+          </div>
+        </div> 
+      </div> 
+    </footer><!--/FOOTER-->        
+    <!--script-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jquery.animsition.min.js"></script>
+	</body>
+</html>
+        
